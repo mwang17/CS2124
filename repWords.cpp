@@ -8,7 +8,6 @@ int main(){
     ++ numberOfWords;
     if(previous == current){
       cout << "Word number " << numberOfWords << " repeated: " << current << "\n";
-      break;
     }
     previous = current;
   }
